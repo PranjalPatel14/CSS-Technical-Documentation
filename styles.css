@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
 }
+
+body{
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
 nav{
     display: block;
 }
@@ -13,7 +18,7 @@ nav{
     left: 0;
     height: 100%;
 }
-header{
+#navbar header{
     font-size: 25px;
     padding: 15px;
     padding-left: 20px;
@@ -30,12 +35,10 @@ header{
     list-style-type: none;
     position: relative;
     left: 0px;
-    padding: 10px;
+    padding: 15px;
+    cursor: pointer;
 }
-section{
-    text-decoration: none;
-    
-}
+
 a{
     color: inherit;
     text-decoration: none;
@@ -43,6 +46,42 @@ a{
 
 main{
     position: absolute;
-    margin-left: 310px;
+    margin-left: 295px;
+    border-left: 3px solid rgb(167, 166, 166);
+}
 
+main header{
+    padding: 20px;
+    font-size: 2em;
+}
+
+main article{
+    margin-left: 30px;
+}
+
+p{
+    padding: 10px;
+    font-size: 0.96em;
+}
+
+main li{
+    margin-left: 45px;
+    padding: 10px;
+    padding-left: 0;
+}
+
+code{
+    display: block;
+    background-color: rgb(236, 234, 234);
+    color: black;
+    font-size: 1.2em;
+    margin: 20px;
+    line-height: 2;
+    padding: 10px;
+    text-align: left;
+}
+
+section a{
+    text-decoration:underline;
+    color: blue;
 }
